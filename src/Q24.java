@@ -13,6 +13,11 @@ public class Q24{
                 break;
             }
         }
-        System.out.println(a);
+        if (n>1){
+            System.out.println(a);
+        }
+        else {
+            System.out.println("1");
+        }
     }
 }
