@@ -6,7 +6,6 @@ public class Q9 {
         Scanner scn = new Scanner(System.in);
         int n =scn.nextInt();
         int m =scn.nextInt();
-        int a =Math.min(n,m);
         int s=0,b=0;
 
         for (int i=1;i<=n;i++){
@@ -14,7 +13,7 @@ public class Q9 {
                 s =i;
             }
         }
-        for (int j=n*m;j>a;j--){
+        for (int j=n*m;j>n;j--){
             if (j%n==0 && j%m==0){
                 b =j;
             }
